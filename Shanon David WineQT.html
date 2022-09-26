@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>4b4e961b8b19416688e44b04e244c44e</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="op">%</span>matplotlib inline</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>wine_df <span class="op">=</span> pd.read_csv(<span class="st">&quot;D:/Data science lecture notes/Projects/WineQT.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>wine_df.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<pre><code>(1143, 13)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>wine_df.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="4">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fixed acidity</th>
+      <th>volatile acidity</th>
+      <th>citric acid</th>
+      <th>residual sugar</th>
+      <th>chlorides</th>
+      <th>free sulfur dioxide</th>
+      <th>total sulfur dioxide</th>
+      <th>density</th>
+      <th>pH</th>
+      <th>sulphates</th>
+      <th>alcohol</th>
+      <th>quality</th>
+      <th>Id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>7.4</td>
+      <td>0.70</td>
+      <td>0.00</td>
+      <td>1.9</td>
+      <td>0.076</td>
+      <td>11.0</td>
+      <td>34.0</td>
+      <td>0.9978</td>
+      <td>3.51</td>
+      <td>0.56</td>
+      <td>9.4</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>7.8</td>
+      <td>0.88</td>
+      <td>0.00</td>
+      <td>2.6</td>
+      <td>0.098</td>
+      <td>25.0</td>
+      <td>67.0</td>
+      <td>0.9968</td>
+      <td>3.20</td>
+      <td>0.68</td>
+      <td>9.8</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>7.8</td>
+      <td>0.76</td>
+      <td>0.04</td>
+      <td>2.3</td>
+      <td>0.092</td>
+      <td>15.0</td>
+      <td>54.0</td>
+      <td>0.9970</td>
+      <td>3.26</td>
+      <td>0.65</td>
+      <td>9.8</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>11.2</td>
+      <td>0.28</td>
+      <td>0.56</td>
+      <td>1.9</td>
+      <td>0.075</td>
+      <td>17.0</td>
+      <td>60.0</td>
+      <td>0.9980</td>
+      <td>3.16</td>
+      <td>0.58</td>
+      <td>9.8</td>
+      <td>6</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>7.4</td>
+      <td>0.70</td>
+      <td>0.00</td>
+      <td>1.9</td>
+      <td>0.076</td>
+      <td>11.0</td>
+      <td>34.0</td>
+      <td>0.9978</td>
+      <td>3.51</td>
+      <td>0.56</td>
+      <td>9.4</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>wine_df.isnull().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<pre><code>fixed acidity           0
+volatile acidity        0
+citric acid             0
+residual sugar          0
+chlorides               0
+free sulfur dioxide     0
+total sulfur dioxide    0
+density                 0
+pH                      0
+sulphates               0
+alcohol                 0
+quality                 0
+Id                      0
+dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>There are no null values in the given dataset.</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>wine_df.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fixed acidity</th>
+      <th>volatile acidity</th>
+      <th>citric acid</th>
+      <th>residual sugar</th>
+      <th>chlorides</th>
+      <th>free sulfur dioxide</th>
+      <th>total sulfur dioxide</th>
+      <th>density</th>
+      <th>pH</th>
+      <th>sulphates</th>
+      <th>alcohol</th>
+      <th>quality</th>
+      <th>Id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+      <td>1143.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>8.311111</td>
+      <td>0.531339</td>
+      <td>0.268364</td>
+      <td>2.532152</td>
+      <td>0.086933</td>
+      <td>15.615486</td>
+      <td>45.914698</td>
+      <td>0.996730</td>
+      <td>3.311015</td>
+      <td>0.657708</td>
+      <td>10.442111</td>
+      <td>5.657043</td>
+      <td>804.969379</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>1.747595</td>
+      <td>0.179633</td>
+      <td>0.196686</td>
+      <td>1.355917</td>
+      <td>0.047267</td>
+      <td>10.250486</td>
+      <td>32.782130</td>
+      <td>0.001925</td>
+      <td>0.156664</td>
+      <td>0.170399</td>
+      <td>1.082196</td>
+      <td>0.805824</td>
+      <td>463.997116</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>4.600000</td>
+      <td>0.120000</td>
+      <td>0.000000</td>
+      <td>0.900000</td>
+      <td>0.012000</td>
+      <td>1.000000</td>
+      <td>6.000000</td>
+      <td>0.990070</td>
+      <td>2.740000</td>
+      <td>0.330000</td>
+      <td>8.400000</td>
+      <td>3.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>7.100000</td>
+      <td>0.392500</td>
+      <td>0.090000</td>
+      <td>1.900000</td>
+      <td>0.070000</td>
+      <td>7.000000</td>
+      <td>21.000000</td>
+      <td>0.995570</td>
+      <td>3.205000</td>
+      <td>0.550000</td>
+      <td>9.500000</td>
+      <td>5.000000</td>
+      <td>411.000000</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>7.900000</td>
+      <td>0.520000</td>
+      <td>0.250000</td>
+      <td>2.200000</td>
+      <td>0.079000</td>
+      <td>13.000000</td>
+      <td>37.000000</td>
+      <td>0.996680</td>
+      <td>3.310000</td>
+      <td>0.620000</td>
+      <td>10.200000</td>
+      <td>6.000000</td>
+      <td>794.000000</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>9.100000</td>
+      <td>0.640000</td>
+      <td>0.420000</td>
+      <td>2.600000</td>
+      <td>0.090000</td>
+      <td>21.000000</td>
+      <td>61.000000</td>
+      <td>0.997845</td>
+      <td>3.400000</td>
+      <td>0.730000</td>
+      <td>11.100000</td>
+      <td>6.000000</td>
+      <td>1209.500000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>15.900000</td>
+      <td>1.580000</td>
+      <td>1.000000</td>
+      <td>15.500000</td>
+      <td>0.611000</td>
+      <td>68.000000</td>
+      <td>289.000000</td>
+      <td>1.003690</td>
+      <td>4.010000</td>
+      <td>2.000000</td>
+      <td>14.900000</td>
+      <td>8.000000</td>
+      <td>1597.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>wine_df[<span class="st">&#39;quality&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>5    483
+6    462
+7    143
+4     33
+8     16
+3      6
+Name: quality, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>To see or explore the data distribution we can create a histogram:-</p>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>wine_df.hist(bins<span class="op">=</span><span class="dv">100</span>, figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">15</span>))</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_ccce240fa0a94743b12fd6a42ada08fc/9df617537756359611d2ba5e5fe380e1aa6f50d6.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">12</span>))</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>sns.heatmap(wine_df.corr(), annot <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot; Correlation between different parameters contributing towards the quality of wine&quot;</span>)</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_ccce240fa0a94743b12fd6a42ada08fc/78020e2b14e88b37fcbaac254e276177590a79ec.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>wine_df.corr()[<span class="st">&#39;quality&#39;</span>].sort_values()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>volatile acidity       -0.407394
+total sulfur dioxide   -0.183339
+density                -0.175208
+chlorides              -0.124085
+free sulfur dioxide    -0.063260
+pH                     -0.052453
+residual sugar          0.022002
+Id                      0.069708
+fixed acidity           0.121970
+citric acid             0.240821
+sulphates               0.257710
+alcohol                 0.484866
+quality                 1.000000
+Name: quality, dtype: float64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb15"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>sns.barplot(wine_df[<span class="st">&#39;quality&#39;</span>],wine_df[<span class="st">&#39;alcohol&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<pre><code>&lt;AxesSubplot:xlabel=&#39;quality&#39;, ylabel=&#39;alcohol&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_ccce240fa0a94743b12fd6a42ada08fc/181c3405cd9056ada4e4cb1ace9279af1938ffb7.png" /></p>
+</div>
+</div>
+<section id="data-processing-and-train-test-split" class="cell markdown">
+<h1>Data Processing and train test split</h1>
+</section>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb17"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>wine_df[<span class="st">&#39;quality&#39;</span>] <span class="op">=</span> wine_df.quality.<span class="bu">apply</span>(<span class="kw">lambda</span> x:<span class="dv">1</span> <span class="cf">if</span> x<span class="op">&gt;=</span><span class="dv">7</span> <span class="cf">else</span> <span class="dv">0</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>wine_df[<span class="st">&#39;quality&#39;</span>].value_counts()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="45">
+<pre><code>0    984
+1    159
+Name: quality, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="46">
+<div class="sourceCode" id="cb19"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LogisticRegression</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn <span class="im">import</span> preprocessing</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="47">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> wine_df.drop([<span class="st">&#39;quality&#39;</span>,<span class="st">&#39;Id&#39;</span>] , axis <span class="op">=</span> <span class="dv">1</span>)</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> wine_df[<span class="st">&#39;quality&#39;</span>]</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="48">
+<div class="sourceCode" id="cb21"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X,y, test_size<span class="op">=</span><span class="fl">0.3</span>, random_state<span class="op">=</span><span class="dv">30</span>)</span></code></pre></div>
+</div>
+<section id="model-building" class="cell markdown">
+<h1>Model Building</h1>
+</section>
+<div class="cell code" data-execution_count="49">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>logmodel <span class="op">=</span> LogisticRegression()</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>logmodel.fit(X_train,y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="49">
+<pre><code>LogisticRegression()</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="50">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> logmodel.predict(X_test)</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>X_test.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="50">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>fixed acidity</th>
+      <th>volatile acidity</th>
+      <th>citric acid</th>
+      <th>residual sugar</th>
+      <th>chlorides</th>
+      <th>free sulfur dioxide</th>
+      <th>total sulfur dioxide</th>
+      <th>density</th>
+      <th>pH</th>
+      <th>sulphates</th>
+      <th>alcohol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>669</th>
+      <td>8.9</td>
+      <td>0.120</td>
+      <td>0.45</td>
+      <td>1.8</td>
+      <td>0.075</td>
+      <td>10.0</td>
+      <td>21.0</td>
+      <td>0.99552</td>
+      <td>3.41</td>
+      <td>0.76</td>
+      <td>11.9</td>
+    </tr>
+    <tr>
+      <th>272</th>
+      <td>13.7</td>
+      <td>0.415</td>
+      <td>0.68</td>
+      <td>2.9</td>
+      <td>0.085</td>
+      <td>17.0</td>
+      <td>43.0</td>
+      <td>1.00140</td>
+      <td>3.06</td>
+      <td>0.80</td>
+      <td>10.0</td>
+    </tr>
+    <tr>
+      <th>559</th>
+      <td>7.1</td>
+      <td>0.520</td>
+      <td>0.03</td>
+      <td>2.6</td>
+      <td>0.076</td>
+      <td>21.0</td>
+      <td>92.0</td>
+      <td>0.99745</td>
+      <td>3.50</td>
+      <td>0.60</td>
+      <td>9.8</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>7.4</td>
+      <td>0.700</td>
+      <td>0.00</td>
+      <td>1.9</td>
+      <td>0.076</td>
+      <td>11.0</td>
+      <td>34.0</td>
+      <td>0.99780</td>
+      <td>3.51</td>
+      <td>0.56</td>
+      <td>9.4</td>
+    </tr>
+    <tr>
+      <th>557</th>
+      <td>6.9</td>
+      <td>0.635</td>
+      <td>0.17</td>
+      <td>2.4</td>
+      <td>0.241</td>
+      <td>6.0</td>
+      <td>18.0</td>
+      <td>0.99610</td>
+      <td>3.40</td>
+      <td>0.59</td>
+      <td>10.3</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="51">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>accuracy <span class="op">=</span> logmodel.score(X_test,y_test)</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(accuracy<span class="op">*</span><span class="dv">100</span>, <span class="st">&#39;%&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>86.29737609329446 %
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="52">
+<div class="sourceCode" id="cb27"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> classification_report</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test,predictions))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>              precision    recall  f1-score   support
+
+           0       0.88      0.97      0.92       287
+           1       0.68      0.30      0.42        56
+
+    accuracy                           0.86       343
+   macro avg       0.78      0.64      0.67       343
+weighted avg       0.85      0.86      0.84       343
+
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="53">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>confusion_matrix(y_test, predictions)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output execute_result" data-execution_count="53">
+<pre><code>array([[279,   8],
+       [ 39,  17]], dtype=int64)</code></pre>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
